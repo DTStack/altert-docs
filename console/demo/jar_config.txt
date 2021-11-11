@@ -1,0 +1,5 @@
+className: 
+自定义告警 com.dtstack.sdk.example.ICustomizeChannelExample
+短信 com.dtstack.sdk.example.ISmsChannelExample
+邮箱 com.dtstack.sdk.example.IMailChannelExample
+钉钉 com.dtstack.sdk.example.IDingChannelExample
