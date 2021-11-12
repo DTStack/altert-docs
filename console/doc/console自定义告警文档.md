@@ -1,6 +1,6 @@
 <a name="4hV5c"></a>
 ## 一.导入jar
-直接下载jar<br />[console-alert-plugin-sdk-4.0.0-SNAPSHOT.jar]()<br />
+直接下载jar<br />[engine-alert-sdk.jar]()<br />
 
 如果无法下载
 直接从git上下载
@@ -167,8 +167,3 @@ public interface ICustomizeChannel {
    1. 通道配置信息: 
       1. className: 表示jar中实现接口ISmsChannel的类的完整类名
       1. 通道配置信息客户可以根据开发需求添加字段，该字段不会被处理，在发送告警的时候回封装到extMap字段中传入方法内。
-
-
-
-注： dome如下：<br />jar: [console-alert-plugin-sdk-example-4.0.0.jar]()<br />源码： [console-alert-plugin-sdk-example-4.0.0-sources.jar]()<br />className: <br />自定义告警 com.dtstack.sdk.example.ICustomizeChannelExample<br />短信 com.dtstack.sdk.example.ISmsChannelExample<br />邮箱 com.dtstack.sdk.example.IMailChannelExample<br />钉钉 com.dtstack.sdk.example.IDingChannelExample<br />
-
